@@ -55,7 +55,7 @@ SELECT(SELECT id
        LIMIT  1) AS LOCATION 
 	   
 	   
--- Very simple and intuituive approach
+-- Very simple and intuitive approach
 
 SELECT Min(id)       AS ID,
        Min(NAME)     AS NAME,
