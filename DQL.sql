@@ -53,3 +53,16 @@ SELECT(SELECT id
        WHERE  location IS NOT NULL
        ORDER  BY id
        LIMIT  1) AS LOCATION 
+	   
+	   
+-- Very simple and intuituive approach
+
+SELECT Min(id)       AS ID,
+       Min(NAME)     AS NAME,
+       Min(location) AS location
+FROM   q4_data;
+
+SELECT Max(id)       AS ID,
+       Max(NAME)     AS NAME,
+       Max(location) AS location
+FROM   q4_data; 
